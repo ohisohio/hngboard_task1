@@ -11,5 +11,42 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<script src="https://kit.fontawesome.com/853007f87a.js"></script>
 	</head>
-	<body class="bg-blue-200"></body>
+	<body class="bg-blue-200">
+		<div class="container flex">
+			<aside class="flex items-center w-1/2 h-screen lg:w-64 bg-blue-400">
+				<ul class="flex justify-between w-1/2 flex-col">
+					<li
+						class="px-8 py-6 text-white font-bold rounded cursor cursor-pointer"
+					>
+						Dashboard
+					</li>
+					<li
+						class="px-8 py-6 text-white font-bold rounded cursor cursor-pointer"
+					>
+						Leaders Board
+					</li>
+					<li
+						class="px-8 py-6 text-white font-bold rounded cursor cursor-pointer"
+					>
+						Tables
+					</li>
+				</ul>
+			</aside>
+			<main class="p-12">
+				<div class="grid w-2/3">
+					<div class="w-full h-64 bg-gray-100 rounded">
+						selected file
+					</div>
+					<div class="w-full p-6 bg-blue-700 text-center">
+						<select name="" id="" class="m-2 px-4 bg-blue-200">
+							<option value="choose" selected>Choose formart</option>
+							<option value="1"> JSON</option>
+							<option value="2"> CSV</option>
+						</select>
+						<input type="file" name="file" id="file" class="bg-blue-200 p-2" />
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
 </html>

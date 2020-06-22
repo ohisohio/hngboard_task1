@@ -16,3 +16,7 @@ main {
 	opacity: 0.3;
 	z-index: -10;
 }
+.main__table {
+	height: 50vh;
+	overflow-y: scroll;
+}
