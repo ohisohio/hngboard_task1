@@ -9,24 +9,25 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
-		<script src="https://kit.fontawesome.com/853007f87a.js"></script>
+		<!-- <script src="https://kit.fontawesome.com/8full07f87a.js"></script> -->
 	</head>
 	<body class="bg-blue-200">
-		<div class="container flex">
+		<div class="flex">
 			<aside class="flex items-center w-1/2 h-screen lg:w-64 bg-blue-400">
-				<ul class="flex justify-between w-1/2 flex-col">
+				<ul class="flex justify-between w-full flex-col">
 					<li
-						class="px-8 py-6 text-white font-bold rounded cursor cursor-pointer"
+						class="px-8 py-6 w-full text-white font-bold rounded cursor cursor-pointer"
 					>
-						Dashboard
+						<a href="dashboard.html">Dashboard</a>
 					</li>
 					<li
-						class="px-8 py-6 text-white font-bold rounded cursor cursor-pointer"
+						full
+						class="px-8 py-6 w-full text-white font-bold rounded cursor cursor-pointer"
 					>
-						Leaders Board
+						<a href="index.html"> Leaders Board</a>
 					</li>
 					<li
-						class="px-8 py-6 text-white font-bold rounded cursor cursor-pointer"
+						class="px-8 py-6 w-full text-white font-bold rounded cursor cursor-pointer"
 					>
 						Tables
 					</li>
@@ -34,10 +35,12 @@
 			</aside>
 			<main class="p-12">
 				<div class="grid w-2/3">
-					<div class="w-full h-64 bg-gray-100 rounded">
-						selected file
+					<div
+						class="w-full h-64 flex justify-center items-center bg-gray-100 rounded"
+					>
+						<i class="fas fa-file-upload fa-4x text-blue-700"></i>
 					</div>
-					<div class="w-full p-6 bg-blue-700 text-center">
+					<div class="w-full p-2 rounded bg-blue-700 text-center">
 						<select name="" id="" class="m-2 px-4 bg-blue-200">
 							<option value="choose" selected>Choose formart</option>
 							<option value="1"> JSON</option>
@@ -48,5 +51,6 @@
 				</div>
 			</main>
 		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
 	</body>
 </html>
