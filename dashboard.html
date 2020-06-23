@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leadersboard | Dashboard</title>
+		<link
+			href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- <script src="https://kit.fontawesome.com/8full07f87a.js"></script> -->
+	</head>
+	<body class="bg-blue-200">
+		<div class="flex">
+			<aside class="flex items-center w-1/2 h-screen lg:w-64 bg-blue-400">
+				<ul class="flex justify-between w-full flex-col">
+					<li
+						class="px-8 py-6 w-full text-white font-bold rounded cursor cursor-pointer"
+					>
+						<a href="dashboard.html">Dashboard</a>
+					</li>
+					<li
+						full
+						class="px-8 py-6 w-full text-white font-bold rounded cursor cursor-pointer"
+					>
+						<a href="index.html"> Leaders Board</a>
+					</li>
+					<li
+						class="px-8 py-6 w-full text-white font-bold rounded cursor cursor-pointer"
+					>
+						Tables
+					</li>
+				</ul>
+			</aside>
+			<main class="p-12">
+				<div class="grid w-2/3">
+					<div
+						class="w-full h-64 flex justify-center items-center bg-gray-100 rounded"
+					>
+						<i class="fas fa-file-upload fa-4x text-blue-700"></i>
+					</div>
+					<div class="w-full p-2 rounded bg-blue-700 text-center">
+						<select name="" id="" class="m-2 px-4 bg-blue-200">
+							<option value="choose" selected>Choose formart</option>
+							<option value="1"> JSON</option>
+							<option value="2"> CSV</option>
+						</select>
+						<input type="file" name="file" id="file" class="bg-blue-200 p-2" />
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+	</body>
+</html>
