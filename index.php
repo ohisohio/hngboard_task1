@@ -98,8 +98,8 @@ $conn = OpenCon();
                 if (mysqli_num_rows($result) > 0){?>
     
 
-    <table class="main_content result">
-    <thead>
+    <table class="main_content result container m-auto p-4">
+    <thead class="bg-gray-300">
         <tr>
             
             <th>NAME</th>
@@ -112,8 +112,8 @@ $conn = OpenCon();
 
 <?php
 while($row = mysqli_fetch_assoc($result)){?>
-<tbody >
-    <tr>
+<tbody > 
+    <tr class="border-t-2 border-blue-700">
         
         <td><?php echo $row['fullname']; ?></td>
         <td><?php echo $row['username']; ?></td>
