@@ -58,7 +58,7 @@ function jsonimport(){
     if(isset($_POST['import'])) {
 
         $fileName = $_FILES["file"]["tmp_name"];        
-        $data = file_get_contents($_FILES[$fileName]['name']);
+        $data = file_get_contents($fileName);
         $content = json_decode($data,true);
         global $conn;
         $name = $content['fullname'];
