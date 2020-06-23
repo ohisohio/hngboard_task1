@@ -45,7 +45,7 @@ $(document).ready(function(){
 				>
 					LeadersBoard
                 </h1><br>
-                <h4 style="text-align: center;">  Designed and developed by @ohis | @Gfellah |@onyinyebeks | @been_ice </h4>
+                <h4 style="text-align: center;">  Designed and developed by @ohis | @Gfellah |@onyinyebeks | @been_ice| @joshomale </h4>
 				<span class="block text-right text-blue-700 font-semibold"
 					><a
 						href="/admin.php"

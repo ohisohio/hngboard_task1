@@ -1,20 +1,5 @@
 <?php
 
-/* define('host','localhost');
-define('user','ohis');
-define('pass','success@305');
-define('db','hngboard');
-
-
-
-$conn = mysqli_connect(host,user,pass,db);
-
-if(!$conn){
-    die("Error: failed to connect to database ");
-} 
- */
-
-
 function OpenCon()
 {
 $dbhost = "localhost";
